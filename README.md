@@ -1,6 +1,6 @@
 # API RESTful Pessoas
 
-![image](https://github.com/user-attachments/assets/464e7752-4a95-4f59-8f8d-434e12503814)
+![image](api.png)
 
 
 ### Passos de Instalação
@@ -9,11 +9,6 @@
 python -m venv venv
 ```
 
-```
-./source venv/bin/activate   # linux, Mac
-```
-
-ou
 ```
 venv/Script/activate  # Windows
 ```
@@ -26,4 +21,23 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-ver documentação Swagger em `http://127.0.0.1:8000/pessoas/api/docs`
+
+
+
+
+### Defesa
+
+Indicações:
+* veja documentação Swagger em `http://127.0.0.1:8000/docs`, para conferir se é semelhante à imagem do readme (ficheiro api.png)
+
+* teste cada um dos endpoints usando o swagger, para verificar se faz o esperado
+
+* analise os ficheiros schemas.py e api.py
+
+Implemente de modo a que fique correta, e identifique em baixo as alterações que fez, para as mostrar ao seu docente:
+
+* ...
+
+* ...
+
+
